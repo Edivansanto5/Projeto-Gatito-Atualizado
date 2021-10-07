@@ -4,7 +4,9 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native';
 import Login from './Telas/Login';
 import principal from './Telas/principal';
+
 import styles from './assets/src/estiloGlobal/estilo';
+
 
 const Stack = createNativeStackNavigator();
 
