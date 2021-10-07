@@ -33,7 +33,7 @@ export default function principal(){
             <FlatList
                 data = {servicos}
                 renderItem = {({item})=> <Item {...item}/>}
-                keyExtractor = {(id) => String(id)}
+                keyExtractor = {({id}) => String(id)}
 
             
             />
